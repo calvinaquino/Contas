@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal" >
+    
+    <Button
+        android:id="@+id/adicionarPagamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:text="Pagar"
+        android:onClick="addDebt" />
+
+    <Button
+        android:id="@+id/adicionarRecebimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Receber"
+        android:onClick="addBonus" />
+
+</LinearLayout><!-- From: file:/Users/calvinaquino/Calvin/Projects/Contas/app/src/main/res/layout/transaction_footer.xml -->
